@@ -15,7 +15,7 @@ public class Main {
     }
 
     public void receiveInfo() {
-        System.out.println("your first number:");
+        System.out.println("your first number slowly:");
         this._firstNum = Integer.parseInt(input.nextLine());
         System.out.println("your second number:");
         this._secondNum = Integer.parseInt(input.nextLine());
@@ -25,21 +25,11 @@ public class Main {
     }
     public void operatorFinder(int FNum, int SNum, int oPeration) {
         switch (oPeration) {
-            case 1:
-                System.out.println(FNum/SNum);
-                break;
-            case 2:
-                System.out.println(FNum*SNum);
-                break;
-            case 3:
-                System.out.println(FNum+SNum);
-                break;
-            case 4:
-                System.out.println(FNum-SNum);
-                break;
-            default:
-                System.out.println("you choosed a wrong number");
-
+            case 1 -> System.out.println(FNum / SNum);
+            case 2 -> System.out.println(FNum * SNum);
+            case 3 -> System.out.println(FNum + SNum);
+            case 4 -> System.out.println(FNum - SNum);
+            default -> System.out.println("you choosed a wrong number");
         }
 
     }
