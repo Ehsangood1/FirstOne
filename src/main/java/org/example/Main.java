@@ -29,7 +29,7 @@ public class Main {
             case 2 -> System.out.println(FNum * SNum);
             case 3 -> System.out.println(FNum + SNum);
             case 4 -> System.out.println(FNum - SNum);
-            default -> System.out.println("you choosed a wrong number try again");
+            default -> System.out.println("you choosed a wrong number try again and again");
         }
 
     }
